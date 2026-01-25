@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import ProfilePic from "../assets/Marvellous.jpg";
+import ProfilePic from "../assets/Marvellous.jpgj";
 
 function Hero() {
   const scrollToSection = (id) => {
@@ -28,6 +28,7 @@ function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full blur-3xl opacity-50"></div>
             <img
               src={ProfilePic}
+              loading= "lazy"
               alt="Marvellous"
               className="relative w-72 h-72 sm:w-96 sm:h-96 rounded-full object-cover object-[center_30%] ring-8 ring-cyan-500/40 shadow-[0_0_80px_rgba(34,211,238,0.5)]"
             />

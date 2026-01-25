@@ -79,6 +79,7 @@ function Projects() {
             >
               <img
                 src={project.image}
+                loading="lazy"
                 alt={project.title}
                 className="w-auto h-auto bg-slate-900"
               />
