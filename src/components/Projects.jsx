@@ -102,6 +102,7 @@ function Projects() {
                 </div>
                 <motion.a
                   href={project.link}
+                  target = "_blank"
                   whileHover={{ scale: 1.05 }}
                   className="font-mono flex items-center text-cyan-400 hover:text-cyan-300 font-semibold transition-colors"
                 >

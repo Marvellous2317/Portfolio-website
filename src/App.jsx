@@ -12,7 +12,7 @@ function App() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 min-h-screen "
+      className="bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 min-h-screen w-full overflow-x-hidden max-w-full"
     >
       <Navbar />
       <Hero />

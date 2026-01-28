@@ -39,7 +39,7 @@ function Skills() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{
-                duration: 0.7,
+                duration: 0.2,
                 delay: (index % 4) * 0.2, 
               }}
               whileHover={{

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import ProfilePic from "../assets/Marvellous.jpgj";
+import ProfilePic from "../assets/Marvellous.png";
 
 function Hero() {
   const scrollToSection = (id) => {
